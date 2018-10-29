@@ -1,0 +1,109 @@
+.container_form_signup_back {
+	position: relative;
+}
+
+.container_signup_front {
+	padding: 45px 0 0 0;
+}
+
+.container_form_signup {
+	box-shadow: 1px 1px 4px 1px #e0e0e0;
+	display: inline-block;
+	padding: 50px 55px 150px 55px;
+}
+
+.signup_label {
+	height: 20px;
+	background: '';
+}
+
+.input_label {
+	padding: 3px 0 0 0;
+}
+
+.row_signup_input {
+	padding: 5px 0 0px 0;
+}
+
+.signup_label {
+	text-align: left;
+	font: 13px arial;
+}
+
+.signup_input {
+	width: 300px;
+}
+
+/*** Detail ***/
+.row_signup_detail {
+	padding: 0 0 5px 0;
+}
+
+.detail_label, .detail_input {
+	display: inline-block;
+	vertical-align: top;
+	width: 350px;
+}
+
+.detail_label {
+	width: 150px;
+	text-align: left;
+	font: 13px arial;
+	background: '';
+	padding: 17px 0 5px 0;
+}
+
+.btn_upload_img {
+	font: 13px arial;
+}
+
+.container_preview_img {
+	border: 1px solid #e0e0e0;
+	width: 85px;
+	height: 85px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.cell_previewimg {
+	display: table-cell;
+	width: 85px;
+	height: 85px;
+	vertical-align: middle;
+}
+
+#previewimg {
+	max-width: 85px;
+	max-height: 85px;
+	z-index: 0;
+	margin: 0;
+}
+
+/*** DOB ***/
+.container_select_dob {
+	padding: 10px 0 0 10px;
+	text-align: left;
+}
+
+.select_dob_day, .select_dob_month, .select_dob_year {
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 0px solid transparent;
+	border-bottom: 1px solid #cacaca;
+	outline: 0px solid transparent;
+	padding: 2px 10px;
+	text-align: left;
+	margin-right: 5px;
+}
+
+.select_dob_day {
+	width: 90px;
+}
+
+.select_dob_month {
+	width: 120px;
+}
+
+.select_dob_year {
+	width: 100px;
+}

@@ -1,0 +1,9 @@
+2018-10-18 21:44:34: nMinPassed=107 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-18 21:44:34: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE, trying FORWARDER PIPE at forwarder-nova.forwarders.goodsync(forwarder-nova.goodsync.com:443) local=0
+2018-10-18 21:44:41: -- Analysis Started by On File Change Incremental
+2018-10-18 21:44:45: Changes: 1, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 5
+2018-10-18 21:44:45: Left to Right: Copy File: 1 
+2018-10-18 21:44:45: == Sync Started by On File Change Incremental
+2018-10-18 21:44:51: Copy New 'C:/Users/Hp/Dropbox/htdocs/adgo/assets/images/site/grid.png' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/images/site/grid.png' (22,865)
+2018-10-18 21:44:55: == Sync Complete. Time: 00:00:10, Speed: 3.72 KB/s, OK: 1, Errors: 0
+2018-10-18 21:44:56: 

@@ -1,0 +1,9 @@
+2018-10-25 01:57:42: nMinPassed=0 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-25 01:57:42: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE at 18.136.42.189:33333(172.31.30.50:33333), trying FORWARDER PIPE at forw-lax.forwarders.goodsync(forw-lax.goodsync.com:443) local=0
+2018-10-25 01:57:48: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-25 01:57:54: Changes: 1, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 20
+2018-10-25 01:57:54: Left to Right: Copy File: 1 
+2018-10-25 01:57:54: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-25 01:58:00: Copy Over 'C:/Users/Hp/Dropbox/htdocs/adgo/assets/css/dashboard.css' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/css/dashboard.css' (7,049)
+2018-10-25 01:58:06: == Sync Complete. Time: 00:00:12, Speed: 1.14 KB/s, OK: 1, Errors: 0
+2018-10-25 01:58:06: 

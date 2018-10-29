@@ -1,0 +1,274 @@
+@media only screen 
+and (max-width: 768px) {
+
+	/*
+	.container_mid {
+		background: ;
+		flex: 1;
+		overflow: auto;
+		position: relative;
+	}
+
+	.container_mid::-webkit-scrollbar {
+		width: 0px;
+	}
+
+	.container_mid::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		border-radius: 0px;
+	}
+
+	.container_mid::-webkit-scrollbar-thumb {
+		border-radius: 0px;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+	}
+	*/
+	
+	.container_mid {
+		padding: 50px 0 0 0;
+	}
+	
+	.container_background {
+		position: fixed;
+		z-index: -1;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.background_home {
+		height: 225px;
+	}
+
+	.container_front_background {
+		height: 225px;
+	}
+	
+	.background_home {
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: fixed;
+		background-size: 864px auto;
+	}
+	
+	.background_initial {
+		background-image: url('../images/bg_initial.jpg');
+	}
+	
+	/*** Container bot ***/
+	.container_main_bot {
+		background: white;
+	}
+
+	.container_main_desc {
+		padding: 100px 0;
+	}
+	
+	/*** Desc ***/
+	.icon_desc {
+		width: 120px;
+	}
+	
+	.col_home_desc {
+		padding: 20px 5px;
+	}
+	
+	.container_desc_title {
+		font: bold 16px arial;
+		padding: 15px 0 15px 0;
+	}
+	
+	.container_desc_txt {
+		width: 250px;
+		text-align: center;
+		font: 13px arial;
+		padding: 15px 10px;
+		background: #f2f2f2;
+		height: 200px;
+		line-height: 20px;
+	}
+	
+	/*** Partners ***/
+	.container_partners_back {
+		background: rgba(0, 0, 255, 0.1);
+	}
+	
+	.container_partners_front {
+		padding: 60px 0 130px 0;
+	}
+	
+	.container_partners_title {
+		font: bold 20px arial;
+		padding: 0 50px 10px 50px;
+		border-bottom: 1px solid grey;
+		display: inline-block;
+	}
+	
+	.title_line {
+		display: inline-block;
+		height: 10px;
+		width: 200px;
+		border-bottom: 1px solid grey;
+		margin: 0 0 35px 0;
+	}
+	
+	.icon_coming_soon {
+		width: 150px;
+	}
+	
+	/*** Member of ***/
+	.container_member_of_front {
+		padding: 50px 0;
+	}
+	
+	.container_member_of_header {
+		font: bold 22px arial;
+		padding: 0 0 25px 0;
+	}
+	
+	.logo_idx {
+		width: 250px;
+	}
+	
+	.container_member_of_desc_title {
+		text-align: center;
+	}
+	
+	.txt_desc_title {
+		display: inline-block;
+		border-bottom: 2px solid black;
+		font: bold 16px arial;
+		padding: 30px 10px 5px 10px;
+		margin-bottom: 15px;
+		cursor: pointer;
+	}
+	
+	.txt_desc_title:hover {
+		color: #666699;
+		border-bottom: 2px solid #666699;
+	}
+	
+	.container_member_of_desc {
+		width: 300px;
+		font: 14px arial;
+		padding: 0px 0 0 20px;
+		text-align: left;
+	}
+	
+	/*** Footer ***/
+	.container_main_footer_back {
+		background: #800000;
+		padding: 0 35px;
+		flex: 1;
+		display: flex;
+	}
+	
+	.container_main_footer_front {
+		flex: 1;
+	}
+	
+	.container_footer {
+		padding: 15px 0;
+	}
+	
+	.container_footer_questions {
+		text-align: center;
+		font: 13px arial;
+		color: white;
+		padding: 15px 0 0 0;
+	}
+	
+	.container_txt_questions {
+		padding: 5px 0;
+	}
+	
+	.icon_mail {
+		width: 20px;
+		margin: 0 5px 0 0;
+	}
+	
+	.img_email {
+		width: 135px;
+	}
+	
+	.container_footer_menu_socmed {
+		text-align: center;
+		font: 13px arial;
+		color: white;
+		padding: 10px 0;
+	}
+	
+	.container_footer_title {
+		font: bold 14px arial;
+		border-bottom: 1px solid white;
+		padding: 4px 0;
+		margin: 5px 0;
+	}
+	
+	.container_footer_socmed {
+		padding: 5px 0;
+	}
+
+	.container_footer_socmed a {
+		color: white;
+		text-decoration: none;
+	}
+	
+	.container_footer_submenu {
+		display: inline-block;
+		vertical-align: top;
+		padding: 3px 10px;
+	}
+	
+	.container_socmed {
+		padding: 5px 0;
+	}
+	
+	.icon_fb {
+		width: 20px;
+		margin: 0 5px 0 0;
+	}
+	
+	.icon_ig {
+		width: 20px;
+		margin: 0 5px 0 0;
+	}
+	
+	.footer_copyright {
+		color: white; 
+		padding: 10px 0; 
+		font: 13px arial;
+		background: #4d0000;
+		text-align: center;
+	}
+
+	/*** Download ***/
+	.container_mobile_download_content {
+		width: 100%;
+		height: 580px;
+	}
+
+	.img_mobile_download {
+		width: 100%;
+		height: auto;
+	}
+
+	.background_home_download {
+		height: 1000px;
+		background-image: url('../images/site/bg_mobile_download.jpg');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+	}
+
+	.container_download_btn {
+		text-align: center;
+		margin: 130px 0 0 0;
+	}
+
+	.img_download_btn {
+		width: 250px;
+		height: auto;
+		margin: 55px 0;
+	}
+
+}

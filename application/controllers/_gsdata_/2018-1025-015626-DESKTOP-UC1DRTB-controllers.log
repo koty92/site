@@ -1,0 +1,16 @@
+2018-10-25 01:56:26: On File Change Monitoring started on file:///~Hp/Dropbox/htdocs/adgo/application/controllers
+2018-10-25 01:56:31: nMinPassed=526 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=1 nLastGoodDirectTxnDurationSec=0
+2018-10-25 01:56:31: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE, trying DIRECT at 18.136.42.189:33333
+2018-10-25 01:56:52: ReArrange after Connect Err: [establishing connection 18.136.42.189:33333]: Time out
+2018-10-25 01:56:53: nMinPassed=0 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-25 01:56:53: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE at 18.136.42.189:33333(172.31.30.50:33333), trying FORWARDER PIPE at forw-lax.forwarders.goodsync(forw-lax.goodsync.com:443) local=0
+2018-10-25 01:57:09: On File Change Monitoring started on gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/application/controllers
+2018-10-25 01:57:09: nMinPassed=0 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-25 01:57:09: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE at 18.136.42.189:33333(172.31.30.50:33333), trying FORWARDER PIPE at forw-lax.forwarders.goodsync(forw-lax.goodsync.com:443) local=0
+2018-10-25 01:57:15: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-25 01:57:24: Changes: 1, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 21
+2018-10-25 01:57:24: Left to Right: Copy File: 1 
+2018-10-25 01:57:25: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-25 01:57:31: Copy Over 'C:/Users/Hp/Dropbox/htdocs/adgo/application/controllers/Company_controller.php' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/application/controllers/Company_controller.php' (11,327)
+2018-10-25 01:57:37: == Sync Complete. Time: 00:00:12, Speed: 1.84 KB/s, OK: 1, Errors: 0
+2018-10-25 01:57:37: 

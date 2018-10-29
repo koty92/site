@@ -1,0 +1,43 @@
+.table_invoice {
+	font: 14px arial;
+}
+
+.table_invoice td {
+	padding: 10px 15px;
+}
+
+.td_total {
+	border-top: 1px solid #cacaca;
+}
+
+.invoice_campaign_img {
+	width: 350px;
+}
+
+.container_table_invoice {
+	padding: 35px 0 0 0;
+}
+
+.container_transfer_notice {
+	background: rgba(0, 0, 0, 0.05);
+	height: 500px;
+	width: 400px;
+	padding: 15px 0;
+}
+
+.logo_bca {
+	width: 100px;
+}
+
+.btn_confirm_payment {
+	background: green;
+	color: white;
+	padding: 5px 80px;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+	font: bold 14px arial;
+}
+
+.btn_confirm_payment:hover {
+	background: rgba(0, 128, 0, 0.6);
+}

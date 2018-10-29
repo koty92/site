@@ -1,0 +1,228 @@
+.container_campaign_type {
+	padding: 0px 0 20px 0;
+}
+
+.campaign_label {
+	width: 150px;
+	text-align: left;
+	padding: 20px 0 2px 0;
+	font: 13px arial;
+	background: ;
+}
+
+.row_input_campaign {
+	padding: 4px 0;
+}
+
+.campaign_title, .campaign_answer {
+	width: 345px;
+}
+
+.container_dash {
+	padding: 10px 10px 2px 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.input_date_from, .input_date_to {
+	width: 140px;
+}
+
+.input_new_category {
+	width: 140px;
+}
+
+.container_campaign_title {
+	font: bold 20px arial;
+}
+
+.btn_upload_img {
+	background: rgba(0, 255, 0, 0.8);
+	color: white;
+	padding: 5px 15px;
+	font: 14px arial;
+	margin: 10px 0 0 0;
+	cursor: pointer;
+}
+
+.btn_upload_img:hover {
+	background: rgba(0, 255, 0, 0.5);
+}
+
+.container_preview {
+	width: 350px;
+	background: ;
+	margin: 15px 0 0 40px;
+	min-height: 400px;
+	text-align: center;
+}
+
+.container_phone_preview {
+	width: 250px;
+	min-height: 300px;
+	background: ;
+	margin: 15px 0 0 0;
+	box-shadow: 1px 1px 1px 2px #e0e0e0;
+}
+
+.preview_header {
+	text-align: center;
+	font: bold 15px arial;
+	padding: 5px 0;
+	border-bottom: 1px solid #e0e0e0;
+	z-index: 2;
+}
+
+.container_preview_title {
+	padding: 2px;
+}
+
+.container_preview_title {
+	text-align: center;
+	font: 14px arial;
+	padding: 5px 0;
+	border-bottom: 1px solid #cacaca;
+}
+
+.container_preview_desc {
+	text-align: left;
+	font: 13px arial;
+	border-top: 1px solid #cacaca;
+	padding: 10px;
+}
+
+.container_preview_img {
+	min-height: 200px;
+	width: 250px;
+	background: ;
+	font-size: 0px;
+	padding: 0;
+}
+
+.container_preview_question {
+	text-align: center;
+	padding: 10px 0 5px 0;
+	font: 13px arial;
+}
+
+.pq_placeholder {
+	color: #cacaca;
+}
+
+#previewimg {
+	width: 250px;
+	min-height: 250px;
+	z-index: 0;
+	margin: 0;
+}
+
+.campaign_answer {
+	display: block;
+	margin-bottom: 3px;
+}
+
+.container_preview_answers {
+	padding: 0 10px;
+	text-align: left;
+}
+
+.preview_answer {
+	font: 13px arial;
+	border: 1px solid #cacaca;
+	border-radius: 3px;
+	padding: 2px 10px;
+	margin-bottom: 5px;
+}
+
+/*** Header Section ***/
+
+.container_target_header {
+	font: bold 15px arial;
+	padding: 25px 0 10px 10px;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 0 0 10px 0;
+}
+
+.col_header {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.campaign_icon_info {
+	width: 19px;
+	cursor: pointer;
+	opacity: 0.4;
+	margin-left: 8px;
+	margin-top: 4px;
+}
+
+.campaign_icon_info:hover {
+	opacity: 0.85;
+}
+
+/*** End Header Section ***/
+
+.container_option_gender {
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 0px;
+	margin: 0px 0 0 0;
+	display: inline-block;
+}
+
+.option_gender {
+	padding: 7px 15px;
+	font: 13px arial;
+}
+
+.option_gender:nth-child(2) {
+	border-left: 1px solid #cacaca;
+	border-right: 1px solid #cacaca;
+}
+
+.option_gender:hover, .option_age_all:hover {
+	background: #e0e0e0;
+	font-weight: bold;
+}
+
+.option_age_all {
+	border: 1px solid #cacaca;
+	border-radius: 3px;
+	padding: 10px 32px;
+	font: 13px arial;
+	margin: 3px 20px 0 0;
+	cursor: pointer;
+}
+
+.gender_selected {
+	background: rgba(0, 0, 255, 0.6);
+	color: white;
+	font-weight: bold;
+}
+
+.input_age_from, .input_age_to {
+	width: 75px;
+}
+
+/*** Campaign finish ***/
+.icon_img_success {
+	width: 175px;
+}
+
+.container_success_message {
+	padding: 10px 0;
+	font: 13px arial;
+}
+
+.container_success_btn {
+	padding: 20px 0;
+}
+
+.campaign_finish_btn {
+	margin: 0 10px;
+}
+
+.div_btn_campaign_finish {
+	width: 150px;
+}

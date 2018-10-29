@@ -1,0 +1,258 @@
+@media only screen 
+and (min-width: 768px) {
+	
+	.container_mid {
+		background: ;
+		flex: 1;
+		overflow: auto;
+		position: relative;
+	}
+	
+	.container_mid::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	.container_mid::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		border-radius: 8px;
+	}
+
+	.container_mid::-webkit-scrollbar-thumb {
+		border-radius: 8px;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+	}
+	
+	/*** Nav ***/
+	.container_home3_nav {
+		text-align: center;
+		font-size: 0px;
+		position: relative;
+		height: 300px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	
+	.bg_home3_about-us {
+		background-image: url('../images/bg_home3_about-us.jpg');
+	}
+	
+	.bg_home3_download {
+		background-image: url('../images/bg_home3_download.jpg');
+	}
+	
+	.bg_home3_contact-us {
+		background-image: url('../images/bg_home3_contact-us.jpg');
+	}
+	
+	.container_nav_btn_absolute {
+		position: absolute;
+		bottom: -35px;
+		width: 100%;
+	}
+	
+	.container_home3_nav_btn {
+		background: white;
+		padding: 15px 25px;
+		text-align: center;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px 1px #cacaca;
+	}
+	
+	.home3_nav_btn {
+		border-top: 1px solid #cacaca;
+		border-bottom: 1px solid #cacaca;
+		font: 14px arial;
+		text-align: center;
+	}
+	
+	.home3_nav_btn a {
+		text-decoration: none;
+		color: black;
+	}
+	
+	.home3_nav_url {
+		height: 100%;
+		display: block;
+		padding: 10px 20px;
+		width: 125px;
+		text-align: center;
+	}
+	
+	.home3_nav_btn_left, .home3_nav_btn_right {
+		border-left: 1px solid #cacaca;
+		border-right: 1px solid #cacaca;
+	}
+	
+	.home3_nav_btn_left {
+		border-radius: 10px 0 0 10px;
+	}
+	
+	.home3_nav_btn_right {
+		border-radius: 0 10px 10px 0;
+	}
+	
+	.current_selected_tab {
+		font-weight: bold;
+		background: orange;
+		color: white;
+		cursor: default;
+		padding: 10px 20px;
+		width: 125px;
+	}
+	
+	.tab_not_selected {
+		cursor: pointer;
+	}
+	
+	.tab_not_selected:hover {
+		background: #e0e0e0;
+		font-weight: bold;
+	}
+	
+	/*** Download ***/
+	.container_content_home3_download {
+		text-align: center;
+		padding: 100px 0;
+	}
+	
+	.container_download_inline {
+		width: 500px;
+	}
+	
+	.container_download_img_preview {
+		text-align: center;
+	}
+	
+	.home3_download_img_preview {
+		width: 250px;
+		display: inline-block;
+	}
+	
+	.container_home3_download_btn {
+		padding: 50px 0 0 0;
+	}
+	
+	.uri_download:hover .home3_download_img_btn {
+		opacity: 0.8;
+	}
+	
+	.home3_download_img_btn {
+		width: 250px;
+	}
+
+	/*** About Us ***/
+	.container_home_about_us {
+		background: #f2f2f2;
+		width: 100%;
+		height: 1300px;
+	}
+	
+	.container_about_us_content {
+		width: 1202px;
+		height: 800px;
+		margin: 0 auto;
+		background: ;
+		font-size: 0px;
+	}
+	
+	.container_about_us_left, .container_about_us_right {
+		width: 540px;
+		padding: 40px 30px;
+	}
+	
+	.container_about_us_left {
+		border-right: 2px solid #800000;
+		height: 1320px;
+	}
+	
+	.about_us_img_company {
+		width: 85%;
+		display: inline-block;
+		margin-top: 60px;
+	}
+	
+	.txt_about_us_company, .txt_about_us {
+		color: #800000;
+		font: bold 15px arial;
+		text-align: center;
+		font-style: italic;
+	}
+	
+	.container_about_us_user_txt_company {
+		width: 100%;
+	}
+	
+	.txt_about_us_company {
+		padding: 30px 15px 20px 15px;
+		width: 100%;
+	}
+	
+	.container_about_us_row {
+		padding: 15px 0;
+	}
+	
+	.container_about_us_user_img {
+		background: ;
+		text-align: center;
+	}
+	.about_us_img {
+		width: 200px;
+	}
+	
+	.container_about_us_user_txt {
+		width: 340px;
+	}
+	
+	.txt_about_us {
+		padding: 150px 15px;
+	}
+	
+	/*** Contact Us ***/
+	.container_contact_us_content {
+		padding: 120px 0;
+	}
+	
+	.container_contact_us_col {
+		width: 500px;
+	}
+	
+	.container_contact_us_txt {
+		padding: 20px 0 0 0;
+		font: 14px arial;
+	}
+	
+	.form_contact_row {
+		padding: 8px 0;
+	}
+	
+	.form_contact_input, .form_contact_textarea {
+		width: 350px;
+		padding: 5px 10px;
+	}
+	
+	.form_contact_input {
+		border: 1px solid #cacaca;
+		border-radius: 5px;
+	}
+	
+	.form_contact_textarea {
+		height: 150px;
+	}
+	
+	.form_contact_btn {
+		background: green;
+		color: white;
+		text-align: center;
+		padding: 5px 0;
+		width: 370px;
+		font: bold 14px arial;
+		cursor: pointer;
+		margin: 10px 0;
+	}
+	
+	.form_contact_btn:hover {
+		background: rgba(0, 128, 0, 0.7);
+	}
+	
+}

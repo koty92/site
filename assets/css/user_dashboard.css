@@ -1,0 +1,68 @@
+.container_dashboard_back {
+	flex: 1;
+	background: ;
+	display: flex;
+}
+
+.container_dashboard_front {
+	display: flex;
+	flex: 1;
+	background: ;
+	position: relative;
+}
+
+.container_nav {
+	background: ;
+	width: 150px;
+	box-shadow: 10px 0px 5px -4px #e0e0e0;
+	z-index: 2;
+}
+
+.container_dashboard_main {
+	flex: 1;
+	overflow: auto;
+	position: relative;
+}
+
+.container_content {
+	background: '';
+	padding: 25px 35px;
+}
+
+.content_header {
+	font: bold 18px arial;
+	padding: 10px 0 15px 15px;
+}
+
+.nav {
+	text-align: left;
+	padding: 10px 15px;
+	font: 14px arial;
+	border-bottom: 1px solid #cacaca;
+	cursor: pointer;
+}
+
+.nav:hover {
+	background: #f2f2f2;
+	color: orange;
+}
+
+.btn_square_orange {
+	background: orange;
+	font: bold 14px arial;
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0 0 15px 0;
+	cursor: pointer;
+}
+
+.btn_square_orange:hover {
+	background: #ffb833;
+}
+
+/*** User Business ***/
+.container_user_company_name {
+	padding: 5px 0;
+	font: 14px arial;
+}

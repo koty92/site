@@ -1,0 +1,293 @@
+@media only screen 
+and (min-width: 768px) {
+
+	html, body {
+		padding: 0;
+		margin: 0;
+		display: flex;
+	}
+	
+	.desktop_none {
+		display: none;
+	}
+
+	.container {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.container_top_bar_back_mobile {
+		display: none;
+	}
+
+	.container_top_bar_back {
+		background: ;
+		display: flex;
+		padding: 0 35px;
+		box-shadow: 2px 0 3px 2px #e0e0e0;
+		z-index: 2;
+	}
+
+	.container_top_bar_front {
+		display: flex;
+		flex: 1;
+	}
+
+	.container_logo {
+		width: 200px;
+		vertical-align: top;
+	}
+	
+	.main_logo {
+		padding-top: 2px;
+	}
+	
+	.logo_iklanapa {
+		width: 24px;
+	}
+	
+	.logo_iklanapa_txt {
+		width: 105px;
+	}
+
+	.container_menu {
+		flex: 1;
+		text-align: left;
+	}
+
+	.main_menu {
+		font: 14px arial;
+		padding: 0 15px;
+		cursor: pointer;
+	}
+
+	.main_menu:hover > .menu_sign {
+		display: block;
+	}
+
+	.menu_text {
+		padding: 10px 3px 3px 3px;
+	}
+
+	.menu_sign {
+		background: orange;
+		height: 2px;
+		width: 100%;
+		display: none;
+	}
+
+	.menu_selected .menu_sign {
+		display: block;
+	}
+
+	.container_login_nav {
+		width: 200px;
+		text-align: right;
+	}
+
+	.link_home {
+		text-decoration: none;
+	}
+
+	.main_btn_nav {
+		display: inline-block;
+		vertical-align: top;
+		padding: 11px 20px;
+		cursor: pointer;
+		border-left: 1px solid #e0e0e0;
+		font: 13px arial;
+		position: relative;
+	}
+
+	.main_btn_nav:last-child {
+		border-right: 1px solid #e0e0e0;
+	}
+
+	.main_btn_nav:hover {
+		font-weight: bold;
+		background: rgba(0, 0, 255, 0.1);
+	}
+
+	/*** Log In ***/
+	.container_background_login {
+		background: rgba(0, 0, 0, 0.3);
+		position: fixed;
+		z-index: 5;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		display: none;
+	}
+
+	.container_background_front {
+		padding: 50px 0 0 0;
+	}
+
+	.container_form_login {
+		background: white;
+		border: 1px solid #cacaca;
+		border-radius: 5px;
+		box-shadow: 2px 2px 3px 1px #e0e0e0;
+		display: inline-block;
+		padding: 25px 25px 50px 25px;
+	}
+
+	.input_login {
+		padding: 5px 10px;
+		border: 1px solid #cacaca;
+		border-radius: 3px;
+		margin: 5px 0;
+	}
+
+	/*** Dashboard btn ***/
+	.container_dashboard_nav {
+		position: relative;
+		background: ;
+	}
+
+	.main_btn_nav_user {
+		border-right: 1px solid #e0e0e0;
+	}
+
+	.container_user_nav {
+		background: white;
+		width: 200px;
+		position: absolute;
+		right: 0;
+		box-shadow: 2px 2px 4px 2px #e0e0e0;
+		z-index: 2;
+	}
+
+	.user_nav {
+		font: 14px arial;
+		padding: 8px 10px;
+		cursor: pointer;
+	}
+
+	.user_nav:hover {
+		color: orange;
+		background: #f2f2f2;
+	}
+	
+	/*** Footer ***/
+
+	.container_main_footer_back {
+		background: #800000;
+		padding: 0 35px;
+		flex: 1;
+		display: flex;
+	}
+	
+	.container_main_footer_front {
+		background: ;
+		flex: 1;
+		display: flex;
+	}
+	
+	.container_footer {
+		height: 200px;
+		padding: 30px 20px;
+		display: flex;
+		flex: 1;
+	}
+	
+	.container_footer_questions {
+		padding: 0 0 0 50px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	.container_txt_questions {
+		color: white;
+		font: 14px arial;
+	}
+	
+	.container_img_questions {
+		padding: 20px 0 0 0;
+	}
+	
+	.icon_mail {
+		width: 20px;
+		margin: 0 5px 0 0;
+	}
+	
+	.container_footer_menu {
+		padding: 0 0 0 250px;
+		flex: 1;
+		text-align: left;
+		background: ;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	.container_footer_title {
+		color: white;
+		font: bold 16px arial;
+		padding: 0 0 20px 0;
+		text-align: left;
+	}
+	
+	.container_footer_menu_socmed {
+		padding: 0 165px 0 0;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	.container_footer_socmed {
+		font: 13px arial;
+		color: white;
+		text-align: left;
+	}
+
+	.container_footer_socmed a {
+		color: white;
+		text-decoration: none;
+	}
+	
+	.container_socmed {
+		cursor: pointer;
+		opacity: 0.8;
+		padding: 6px 0;
+	}
+	
+	.container_socmed:hover {
+		opacity: 1
+	}
+	
+	.socmed_txt {
+		padding: 3px 0 0 4px;
+	}
+	
+	.img_email {
+		width: 135px;
+	}
+	
+	.icon_fb {
+		width: 20px;
+	}
+	
+	.icon_ig {
+		width: 20px;
+	}
+	
+	.container_footer_submenu {
+		padding: 5px 0;
+		opacity: 0.8;
+		cursor: pointer;
+	}
+	
+	.container_footer_submenu:hover {
+		opacity: 1;
+	}
+	
+	.footer_copyright {
+		color: white; 
+		padding: 10px 0; 
+		font: 13px arial;
+		background: #4d0000;
+		text-align: center;
+	}
+}

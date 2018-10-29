@@ -1,0 +1,291 @@
+@media only screen 
+and (min-width: 768px) {
+	
+	.container_mid {
+		background: ;
+		flex: 1;
+		overflow: auto;
+		position: relative;
+	}
+
+	.container_mid::-webkit-scrollbar {
+		width: 0px;
+	}
+
+	.container_mid::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		border-radius: 0px;
+	}
+
+	.container_mid::-webkit-scrollbar-thumb {
+		border-radius: 0px;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+	}
+
+	.container_background {
+		position: fixed;
+		z-index: -1;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.main_background {
+		width: 1920px;
+	}
+	
+	.background_home {
+		height: 500px;
+	}
+
+	.container_front_background {
+		height: 500px;
+	}
+
+	.background_home {
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: fixed;
+	}
+	
+	.background_initial {
+		background-image: url('../images/bg_initial.jpg');
+	}
+	
+	.background_publishers {
+		background-image: url('../images/bg_publishers.jpg');
+	}
+	
+	.background_download {
+		background-image: url('../images/bg_download.jpg');
+	}
+	
+	.background_about {
+		background-image: url('../images/bg_about.jpg');
+	}
+	
+	.background_contact {
+		background-image: url('../images/bg_contact.jpg');
+	}
+	
+	/*** Download ***/
+	.uri_download_gps, .uri_download_app {
+		width: 365px;
+		height: 105px;
+		display: block;
+		opacity: 0.4;
+		border-radius: 10px;
+	}
+
+	.uri_download_gps {
+		background: '';
+		margin-top: 30px;
+		margin-left: 5px;
+	}
+	
+	.uri_download_gps:hover {
+		background: rgba(255, 255, 255, 0.45);
+	}
+
+	.uri_download_app {
+		margin-top: 70px;
+		margin-left: 5px;
+	}
+
+	.uri_download_app:hover {
+		background: rgba(255, 255, 255, 0.45);
+	}
+	
+	/*** About Us ***/
+	.container_main_front_invisible {
+		width: 100%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	
+	.uri_home_about_us {
+		width: 100%;
+		height: 500px;
+		display: block;
+	}
+	
+	.uri_home_about_us:hover {
+		background: rgba(255, 255, 255, 0.30);
+	}
+	
+	/*** Front form contact ***/
+	.container_inline_contact_form {
+		padding: 80px 0 0 40px;
+		text-align: left;
+		background: ;
+		width: 900px;
+		display: inline-block;
+		height: 400px;
+	}
+	
+	.container_contact_header {
+		font: bold 15px arial;
+		padding: 0 0 30px 10px;
+	}
+	
+	.form_contact_input {
+		padding: 5px 10px;
+		border: 1px solid #e0e0e0;
+		border-radius: 5px;
+		width: 280px;
+		margin: 5px 0;
+	}
+	
+	.form_contact_textarea {
+		width: 280px;
+		padding: 5px 10px;
+		height: 100px;
+		border-radius: 5px;
+		border: 1px solid #e0e0e0;
+	}
+	
+	.form_contact_btn {
+		background: green;
+		color: white;
+		text-align: center;
+		padding: 5px 0;
+		width: 300px;
+		font: bold 14px arial;
+		cursor: pointer;
+		margin: 10px 0;
+	}
+	
+	.form_contact_btn:hover {
+		background: rgba(0, 128, 0, 0.7);
+	}
+
+	.container_main_bot {
+		background: white;
+	}
+
+	.container_main_desc {
+		padding: 100px 0;
+	}
+	
+	/*** Desc ***/
+	.icon_desc {
+		width: 120px;
+	}
+	
+	.container_table_icons {
+		
+	}
+	
+	.container_home_desc {
+		
+	}	
+	
+	.col_home_desc {
+		padding: 0 5px;
+	}
+	
+	.container_desc_title {
+		font: bold 16px arial;
+		padding: 15px 0 15px 0;
+	}
+	
+	.container_desc_txt {
+		width: 250px;
+		text-align: center;
+		font: 13px arial;
+		padding: 15px 10px;
+		background: #f2f2f2;
+		height: 200px;
+		line-height: 20px;
+	}
+	
+	.td_icon_desc {
+		width: 275px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+	.td_desc {
+		font: bold 16px arial;
+		padding: 15px 0 0 0;
+	}
+	
+	.tr_desc_txt td {
+		font: 13px arial;
+		padding: 15px 5px;
+		text-align: center;
+		width: 265px;
+	}
+	
+	.container_txt_desc {
+		background: #f2f2f2;
+		height: 200px;
+		color: #4d4d4d;
+		padding: 15px 10px;
+		line-height: 20px;
+	}
+	
+	/*** Partners ***/
+	.container_partners_back {
+		background: rgba(0, 0, 255, 0.1);
+	}
+	
+	.container_partners_front {
+		padding: 60px 0 130px 0;
+	}
+	
+	.container_partners_title {
+		font: bold 20px arial;
+		padding: 0 50px 10px 50px;
+		border-bottom: 1px solid grey;
+		display: inline-block;
+	}
+	
+	.title_line {
+		display: inline-block;
+		height: 10px;
+		width: 200px;
+		border-bottom: 1px solid grey;
+		margin: 0 0 35px 0;
+	}
+	
+	.icon_coming_soon {
+		width: 150px;
+	}
+	
+	/*** Member of ***/
+	.container_member_of_front {
+		padding: 50px 0;
+	}
+	
+	.container_member_of_header {
+		font: bold 22px arial;
+		padding: 0 0 25px 0;
+	}
+	
+	.logo_idx {
+		width: 250px;
+	}
+	
+	.txt_desc_title {
+		display: inline-block;
+		border-bottom: 2px solid black;
+		font: bold 16px arial;
+		padding: 10px 10px 5px 10px;
+		margin-bottom: 15px;
+		cursor: pointer;
+	}
+	
+	.txt_desc_title:hover {
+		color: #666699;
+		border-bottom: 2px solid #666699;
+	}
+	
+	.container_member_of_desc {
+		width: 500px;
+		font: 14px arial;
+		padding: 0px 0 0 20px;
+		text-align: left;
+	}
+	
+}

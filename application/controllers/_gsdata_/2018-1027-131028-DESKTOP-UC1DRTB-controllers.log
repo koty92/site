@@ -1,0 +1,10 @@
+2018-10-27 13:10:30: nMinPassed=46 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-27 13:10:30: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE at 18.136.42.189:33333(172.31.30.50:33333), trying FORWARDER PIPE at forw-lax.forwarders.goodsync(forw-lax.goodsync.com:443) local=0
+2018-10-27 13:10:37: -- Analysis Started by On File Change Incremental
+2018-10-27 13:10:42: Changes: 1, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 21
+2018-10-27 13:10:42: Left to Right: Copy File: 1 
+2018-10-27 13:10:42: == Sync Started by On File Change Incremental
+2018-10-27 13:10:48: C:/Users/Hp/Dropbox/htdocs/adgo/application/controllers/Bypass_controller.php: Source file has changed between Analyze and Sync from '[file] size=4,359 accu-time=2018-10-27 13:10:32 attr=Archive cktype=0' to 'size=4,385 time=2018-10-27 13:10:41', noted in source file state
+2018-10-27 13:10:48: Copy Over 'C:/Users/Hp/Dropbox/htdocs/adgo/application/controllers/Bypass_controller.php' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/application/controllers/Bypass_controller.php' (4,359)
+2018-10-27 13:10:52: == Sync Complete. Time: 00:00:10, Speed: 730 bytes/s, OK: 1, Errors: 0
+2018-10-27 13:10:52: 

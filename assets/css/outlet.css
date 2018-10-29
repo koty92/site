@@ -1,0 +1,102 @@
+.container_main_address {
+	padding: 5px 0 20px 5px;
+	font: 13px arial;
+}
+
+.container_outlet_content {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.container_outlet_profile {
+	width: 0px;
+	animation-duration: 0.4s;
+	animation-iteration-count: 1;
+	overflow: hidden;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+.container_add_outlet {
+	width: 100%;
+}
+
+@keyframes left {
+	from {width: 100%;}
+	to {width: 0px}
+}
+
+@keyframes right {
+	from {width: 0px;}
+	to {width: 100%;}
+}
+
+/***
+ Table Outlet
+ ***/
+
+.container_table_outlet {
+	background: ;
+}
+ 
+.table_outlet {
+	font: 13px arial;
+}
+
+.table_outlet th {
+	background: #e0e0e0;
+	text-align: center;
+}
+
+.table_outlet th:nth-child(1), .table_outlet td:nth-child(1) { 
+	width: 30px; 
+}
+
+.table_outlet th:nth-child(2), .table_outlet td:nth-child(2) { 
+	width: 225px; 
+}
+
+.table_outlet th:nth-child(3), .table_outlet td:nth-child(3) { 
+	width: 100px; 
+}
+
+.table_outlet th:nth-child(4), .table_outlet td:nth-child(4) { 
+	width: 200px; 
+}
+
+/***
+ Add Outlet
+ ***/
+ 
+.container_add_outlet_top {
+	border-bottom: 1px solid #cacaca;
+}
+ 
+.btn_outlet_back {
+	padding: 4px 20px;
+	border-right: 1px solid #cacaca;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn_outlet_back:hover {
+	background: #e0e0e0;
+}
+
+.container_outlet_header {
+	padding: 4px 0 4px 15px;
+	font: bold 13px arial;
+}
+
+.container_form_add_outlet {
+	padding: 20px;
+	display: inline-block;
+}
+
+.outlet_label {
+	width: 150px;
+}
+
+.outlet_input {
+	width: 330px;
+}

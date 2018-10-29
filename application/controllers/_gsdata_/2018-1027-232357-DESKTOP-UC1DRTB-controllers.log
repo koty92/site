@@ -1,0 +1,19 @@
+2018-10-27 23:24:01: nMinPassed=660 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=1 nLastGoodDirectTxnDurationSec=0
+2018-10-27 23:24:01: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE, trying DIRECT at 18.136.42.189:33333
+2018-10-27 23:24:22: ReArrange after Connect Err: [establishing connection 18.136.42.189:33333]: Time out
+2018-10-27 23:24:24: nMinPassed=0 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-27 23:24:24: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE at 18.136.42.189:33333(172.31.30.50:33333), trying FORWARDER PIPE at forw-lax.forwarders.goodsync(forw-lax.goodsync.com:443) local=0
+2018-10-27 23:24:35: On File Change Monitoring started on file:///~Hp/Dropbox/htdocs/adgo/application/controllers
+2018-10-27 23:24:36: On File Change Monitoring started on gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/application/controllers
+2018-10-27 23:24:36: nMinPassed=0 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-27 23:24:36: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE at 18.136.42.189:33333(172.31.30.50:33333), trying FORWARDER PIPE at forw-lax.forwarders.goodsync(forw-lax.goodsync.com:443) local=0
+2018-10-27 23:24:43: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-27 23:24:50: Changes: 4, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 21
+2018-10-27 23:24:50: Left to Right: Copy File: 4 
+2018-10-27 23:24:50: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-27 23:24:56: Copy Over 'C:/Users/Hp/Dropbox/htdocs/adgo/application/controllers/Bypass_controller.php' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/application/controllers/Bypass_controller.php' (6,372)
+2018-10-27 23:24:59: Copy Over 'C:/Users/Hp/Dropbox/htdocs/adgo/application/controllers/Company_controller.php' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/application/controllers/Company_controller.php' (11,337)
+2018-10-27 23:25:04: Copy Over 'C:/Users/Hp/Dropbox/htdocs/adgo/application/controllers/Main_controller.php' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/application/controllers/Main_controller.php' (2,162)
+2018-10-27 23:25:07: Copy Over 'C:/Users/Hp/Dropbox/htdocs/adgo/application/controllers/User_controller.php' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/application/controllers/User_controller.php' (6,501)
+2018-10-27 23:25:11: == Sync Complete. Time: 00:00:21, Speed: 1.96 KB/s, OK: 4, Errors: 0
+2018-10-27 23:25:11: 

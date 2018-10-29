@@ -1,0 +1,15 @@
+2018-10-20 15:37:16: On File Change Monitoring started on file:///~Hp/Dropbox/htdocs/adgo/assets/images/icons
+2018-10-20 15:37:17: nMinPassed=167 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-20 15:37:17: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE at 18.136.42.189:33333(172.31.30.50:33333), trying FORWARDER PIPE at forw-lax.forwarders.goodsync(forw-lax.goodsync.com:443) local=0
+2018-10-20 15:37:23: On File Change Monitoring started on gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/images/icons
+2018-10-20 15:37:24: nMinPassed=167 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-20 15:37:24: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE at 18.136.42.189:33333(172.31.30.50:33333), trying FORWARDER PIPE at forw-lax.forwarders.goodsync(forw-lax.goodsync.com:443) local=0
+2018-10-20 15:37:32: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-20 15:37:32: L: State file does not exist: C:/Users/Hp/Dropbox/htdocs/adgo/assets/images/icons/_gsdata_/_file_state_v4._gs
+2018-10-20 15:37:35: R: State file does not exist: gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/images/icons/_gsdata_/_file_state_v4._gs
+2018-10-20 15:37:36: Changes: 1, Conflicts: 0, CopyTime: 0, FixState: 28, Errors: 0, All: 30
+2018-10-20 15:37:36: Left to Right: Copy File: 1 
+2018-10-20 15:37:36: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-20 15:37:40: Copy New 'C:/Users/Hp/Dropbox/htdocs/adgo/assets/images/icons/icon_check.png' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/images/icons/icon_check.png' (63,398)
+2018-10-20 15:37:44: == Sync Complete. Time: 00:00:08, Speed: 77.4 KB/s, OK: 29, Errors: 0
+2018-10-20 15:37:45: 

@@ -1,0 +1,127 @@
+@media only screen 
+and (min-width: 768px) {
+	
+	.container_mid {
+		background: ;
+		flex: 1;
+		overflow: auto;
+		position: relative;
+	}
+
+	.container_mid::-webkit-scrollbar {
+		width: 0px;
+	}
+
+	.container_mid::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		border-radius: 0px;
+	}
+
+	.container_mid::-webkit-scrollbar-thumb {
+		border-radius: 0px;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+	}
+	
+	.container_left_nav {
+		width: 300px;
+		height: 100px;
+		background: ;
+	}
+	
+	.container_content {
+		flex-direction: row;
+		display: flex;
+		background: ;
+		padding: 0 35px 100px 35px;
+		min-height: 600px;
+	}
+	
+	.container_text {
+		padding: 20px 0 0 0;
+		background: ;
+		flex: 1;
+	}
+	
+	/*** Nav ***/
+	.container_home2_nav {
+		padding: 40px 0 0 0;
+	}
+	
+	.container_selected {
+		font: bold 24px arial;
+		border-top: 5px solid rgba(77, 0, 77, 0.7);
+		border-left: 5px solid rgba(77, 0, 77, 0.7);
+		border-radius: 0 7px 0 7px;
+		padding: 15px 0 15px 15px;
+		letter-spacing: 2px;
+	}
+	
+	.home2_nav {
+		font: 14px arial;
+		padding: 6px 13px;
+		margin: 10px 0;
+		cursor: pointer;
+	}
+	
+	.home2_nav:hover {
+		border-left: 2px solid rgba(77, 0, 77, 0.7);
+		color: rgba(77, 0, 77, 0.7);
+	}
+
+	/*** Privacy Policy & Terms & Conditions ***/
+	.container_privacy_policy {
+		padding: 50px 0;
+	}
+	
+	.container_privacy_policy_content {
+		padding: 0 80px;
+		font: 14px arial;
+	}
+	
+	.terms_heading {
+		font: 20px arial;
+		color: #A60000;
+		margin: 0 0 20px 0;
+	}
+
+	.terms_introduction {
+		font-size: 14px;
+		padding: 15px 0 30px 0;
+	}
+
+	.terms_title {
+		font-weight: bold;
+		padding: 10px 0;
+	}
+
+	.terms_paragraph {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 0 0 40px 20px;
+	}
+
+	.terms_point {
+		padding: 10px 5px 10px 5px;
+	}
+
+	.terms_sub_point {
+		padding: 5px 5px 5px 30px;
+	}
+
+	.terms_sub_sub_point {
+		padding: 5px 5px 5px 30px;
+	}
+
+	.point_number {
+		width: 30px;
+		display: inline-block;
+	}
+	
+	.png_cs_email {
+		width: 120px;
+		display: inline-block;
+		vertical-align: bottom;
+		margin-bottom: 1px;
+	}
+
+}

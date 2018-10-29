@@ -1,0 +1,16 @@
+2018-10-18 20:55:33: On File Change Monitoring started on file:///~Hp/Dropbox/htdocs/adgo/assets/images/site
+2018-10-18 20:55:37: nMinPassed=58 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-18 20:55:37: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE, trying FORWARDER PIPE at forwarder-nova.forwarders.goodsync(forwarder-nova.goodsync.com:443) local=0
+2018-10-18 20:55:49: On File Change Monitoring started on gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/images/site
+2018-10-18 20:55:52: nMinPassed=58 nMinBeforeTrying=480 nPos=0 nNeg=4 trydirect=0 nLastGoodDirectTxnDurationSec=0
+2018-10-18 20:55:52: ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync is REMOTE, trying FORWARDER PIPE at forwarder-nova.forwarders.goodsync(forwarder-nova.goodsync.com:443) local=0
+2018-10-18 20:56:06: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-18 20:56:06: L: State file does not exist: C:/Users/Hp/Dropbox/htdocs/adgo/assets/images/site/_gsdata_/_file_state_v4._gs
+2018-10-18 20:56:13: R: State file does not exist: gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/images/site/_gsdata_/_file_state_v4._gs
+2018-10-18 20:56:16: Changes: 2, Conflicts: 0, CopyTime: 0, FixState: 1, Errors: 0, All: 4
+2018-10-18 20:56:16: Left to Right: Copy File: 2 
+2018-10-18 20:56:16: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2018-10-18 20:56:25: Copy New 'C:/Users/Hp/Dropbox/htdocs/adgo/assets/images/site/loader1.gif' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/images/site/loader1.gif' (52,014)
+2018-10-18 20:56:33: Copy New 'C:/Users/Hp/Dropbox/htdocs/adgo/assets/images/site/loader1_25_red.gif' -> 'gstps://ec2amaz-0e6qb4e.wine_81-hotmail-com.goodsync/C:/xampp/htdocs/assets/images/site/loader1_25_red.gif' (68,620)
+2018-10-18 20:56:42: == Sync Complete. Time: 00:00:26, Speed: 7.87 KB/s, OK: 3, Errors: 0
+2018-10-18 20:56:43: 

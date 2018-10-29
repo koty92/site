@@ -1,0 +1,648 @@
+/*
+ * Desktop View
+ */
+
+/*
+ * Common Use
+ */
+
+html, body {
+    width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+/*
+html {
+	background: rgba(194, 194, 240, 0.3);
+}
+*/
+
+.inline-block-top {
+    display: inline-block;
+	vertical-align: top;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+	
+.txt-c {
+	text-align: center;
+}
+	
+.txt-l {
+	text-align: left;
+}
+	
+.txt-r {
+	text-align: right;
+}
+
+.hyperlink {
+    color: #666699;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.hyperlink:hover {
+    text-decoration: underline;
+}
+
+.hyperlink_black {
+    color: black;
+	text-decoration: none;
+}
+
+.hyperlink_black:hover {
+    text-decoration: underline;
+}
+
+.ehyperlink {
+	text-decoration: none;
+}
+
+.ehyperlink:hover {
+	text-decoration: underline;
+}
+
+.hyperlink_normal {
+	color: black;
+	text-decoration: none;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.col {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.i-t {
+	display: inline-block;
+}
+
+.none {
+	display: none;
+}
+	
+.overflow_5px {
+	overflow: auto;
+}
+	
+.overflow_5px::-webkit-scrollbar {
+    width: 5px;
+}
+
+.overflow_5px::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.overflow_5px::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.overflow_8px {
+	overflow: auto;
+}
+
+.overflow_8px::-webkit-scrollbar {
+    width: 8px;
+}
+
+.overflow_8px::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0px 0px 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.overflow_8px::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0px 0px 3px rgba(0,0,0,0.55);
+}
+
+.selected {
+	background: rgba(0, 0, 255, 0.6);
+	color: white;
+}
+
+/*** Text colors ***/
+.c_white {
+	color: white;
+}
+
+/*** Buttons ***/
+
+.btn_green, .btn_orange, .btn_a60000, .ebtn {
+	padding: 2px 15px;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn_green {
+	border: 2px solid green;
+	background: green;
+}
+
+.btn_green:hover {
+	background: white;
+	color: green;
+}
+
+.btn_orange {
+	border: 2px solid orange;
+	background: orange;
+}
+
+.btn_orange:hover {
+	background: white;
+	color: orange;
+}
+
+.btn_a60000 {
+	border: 2px solid #a60000;
+	background: #a60000;
+}
+
+.btn_a60000:hover {
+	background: white;
+	color: #a60000;
+}
+
+.btn_teal {
+	border: 2px solid teal;
+	background: teal;
+}
+
+.btn_teal:hover {
+	background: white;
+	color: teal;
+}
+
+.btn_square_orange, .btn_square_green {
+	font: bold 14px arial;
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0 0 15px 0;
+	cursor: pointer;
+}
+
+.btn_square_orange {
+	background: orange;
+}
+
+.btn_square_orange:hover {
+	background: #ffb833;
+}
+
+.btn_square_green {
+	background: green;
+}
+
+.btn_square_green:hover {
+	background: #00cc00;
+}
+
+.form_btn {
+	background: rgba(0, 0, 255, 0.5);
+	display: inline-block;
+	padding: 8px 14px;
+	color: white;
+	font: 13px arial;
+	cursor: pointer;
+	font-weight: bold;
+	margin: 15px 0 0 0;
+}
+
+.form_btn:hover {
+	background: rgba(0, 0, 255, 0.4);
+}
+
+/*** Inputs ***/
+.eform_label1 {
+	text-align: left;
+	padding: 20px 0 2px 0;
+	font: 13px arial;
+}
+
+.input_txt1 {
+	border-bottom: 1px solid #cacaca;
+	border-top: 0px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	padding: 15px 15px 7px 15px;
+	font: 13px arial;
+	background: ;
+}
+
+.input_txt1:focus {
+	outline: none;
+	box-shadow: 0 3px 4px -2px rgba(0, 0, 255, 0.8);
+}
+
+.input_error {
+	height: 15px;
+	font: 11px arial;
+	color: red;
+	text-align: left;
+	padding: 5px 0 0 5px;
+	font-style: italic;
+	background: ;
+}
+	
+/*
+ * General Table Data
+ */
+ 
+/*
+ * Table
+ */
+ 
+.general_table_data {
+	font: 13px arial;
+	border-collapse: collapse;
+	cursor: default;
+	margin: 10px 10px 20px 10px;
+	height: 90%;
+}
+
+.general_table_data thead th {
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.general_table_data tbody td, .general_table_data thead th  {
+	padding: 5px 10px;
+	border-right: 1px solid #f2f2f2;
+}
+
+.general_table_data tbody tr {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.general_table_data tbody tr:hover {
+	background: #ffffcc;
+}
+
+.general_table_data thead {
+	display: block;
+}
+
+.general_table_data tbody {
+	overflow: auto;
+	display: block;
+}
+
+.general_table_data tbody::-webkit-scrollbar {
+    width: 0px;
+}
+
+.general_table_data tbody::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 0px;
+}
+
+.general_table_data tbody::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+/*** Block table without border ***/
+.block_table_noborder {
+	border-collapse: collapse;
+}
+
+.block_table_noborder thead {
+	display: block;
+}
+
+.block_table_noborder tbody {
+	overflow: auto;
+	display: block;
+}
+
+.block_table_noborder tbody td, .block_table_noborder thead th  {
+	padding: 5px 10px;
+}
+
+.block_table_noborder tbody::-webkit-scrollbar {
+    width: 0px;
+}
+
+.block_table_noborder tbody::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 0px;
+}
+
+.block_table_noborder tbody::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+/*
+ * Fonts
+ */
+ 
+.font-0 {
+    font-size: 0px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+[class*="font-arial-"] {
+    font-family: arial;
+}
+
+[class*="-ts12"] {
+    font-size: 12px;
+}
+
+[class*="-ts13"] {
+	font-size: 13px;
+}
+
+[class*="-ts14"] {
+	font-size: 14px;
+}
+
+[class*="-ts16"] {
+	font-size: 16px;
+}
+
+[class*="-ts20"] {
+	font-size: 20px;
+}
+
+.text-color-red {
+    color: red;
+}
+
+/*
+ * Elert
+ */
+ 
+.elert_bg {
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	padding-top: 5%;
+}
+
+.elert_box {
+	border: 2px solid #a60000;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	background: white;
+	box-shadow: 3px 3px 6px 1px #e0e0e0;
+	font-family: arial;
+	width: 300px;
+	min-height: 140px;
+}
+
+.elert_msg {
+	padding: 20px 15px 15px 15px;
+	text-align: left;
+	background: ;
+	height: 65px;
+	font-size: 14px;
+}
+
+.elert_btn {
+	padding: 10px 50px;
+	border-radius: 10px;
+	border: 1px solid #cacaca;
+	display: inline-block;
+}
+
+.elert_btn:focus {
+	outline: none;
+	box-shadow: 0 0 5px 0.5px blue;
+}
+
+.elert_btn:hover {
+	background: #e0e0e0;
+	cursor: pointer;
+}
+
+/*
+ * Econfirm
+ */
+ 
+.econfirm_bg {
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	padding-top: 5%;
+}
+
+.econfirm_box {
+	border: 2px solid #a60000;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	background: white;
+	box-shadow: 3px 3px 6px 1px #e0e0e0;
+	font-family: arial;
+}
+
+.econfirm_msg {
+	padding: 20px 15px 15px 15px;
+	text-align: left;
+	background: ;
+}
+
+.econfirm_btn_container {
+	background: ;
+}
+
+.econfirm_btn {
+	padding: 7px 45px;
+	border-radius: 10px;
+	border: 1px solid #cacaca;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.econfirm_btn:focus {
+	outline: none;
+	box-shadow: 0 0 5px 0.5px blue;
+}
+
+.econfirm_btn:hover {
+	background: #e0e0e0;
+	cursor: pointer;
+}
+
+/*
+ * Eprompt
+ */
+
+.eprompt_bg {
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	padding-top: 5%;
+}
+
+.eprompt_box {
+	border: 2px solid #a60000;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	background: white;
+	box-shadow: 3px 3px 6px 1px #e0e0e0;
+	font-family: arial;
+}
+
+.eprompt_msg {
+	padding: 20px 15px 15px 15px;
+	text-align: left;
+	background: ;
+}
+
+.eprompt_input {
+	padding: 4px 10px;
+	border-radius: 2px;
+	border: 1px solid #cacaca;
+}
+
+.eprompt_btn {
+	padding: 7px 45px;
+	border-radius: 10px;
+	border: 1px solid #cacaca;
+	display: inline-block;
+	margin: 35px 0 0 0;
+}
+
+.eprompt_btn:focus {
+	outline: none;
+	box-shadow: 0 0 5px 0.5px blue;
+}
+
+.eprompt_btn:hover {
+	background: #e0e0e0;
+	cursor: pointer;
+}
+ 
+.eprompt_box {
+	width: 300px;
+	min-height: 140px;
+}
+
+.eprompt_msg {
+	font-size: 14px;
+}
+
+.eprompt_input {
+	width: 246px;
+}
+
+.eprompt_btn {
+	font-size: 13px;
+}
+
+/*** End Eprompt ***/
+	
+/*** Loader ***/
+
+.loader_container_back2 {
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	text-align: center;
+	display: none;
+}
+
+.container_loader_gif {
+	padding: 10%;
+}
+
+/*** Pop Up ***/
+.popup_container_back {
+	background: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+	
+/*** Loader new ***/
+.loader {
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.loading {
+	height: 5px;
+	background: green;
+	width: 100%;
+	animation-name: loading;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+@keyframes loading {
+	0% { width: 0px; }
+	15% { width: 50%; }
+	50% { width: 70%; }
+	75% { width: 85%; }
+	100% { width: 90%; }
+}
+
+/*** Loader 25 Red ***/
+.container_loader_25_red {
+	position: absolute;
+	background: rgba(255, 255, 255, 0.4);
+	width: 96%;
+	height: 70%;
+	z-index: 5;
+	left: 2%;
+	text-align: center;
+	padding: 25px 0;
+	display: none;
+}
